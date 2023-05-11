@@ -34,9 +34,9 @@ if 1:
                         help='Available model: TabTransformer, FTTransformer, ITTransformer. Default: ITTransformer')
     parser.add_argument('--batch', type=int, default=256,
                         help='Batch size. Default 256.')
-    parser.add_argument('--dataset', type=str, default='income',
+    parser.add_argument('--dataset', type=str, default='adult',
                         choices=['adult', 'covertype', 'income', 'bank', 'volkert', 'Diabetes130US'],
-                        help='Dataset name: income, bank. Default income.')
+                        help='Dataset name: adult, covertype, income, bank, volkert, Diabetes130US. Default adult.')
     parser.add_argument('--use_cpu', action='store_true', default=False,
                         help='Disables CUDA training and uses CPU only. Default False.')
     parser.add_argument('--seed', type=int, default=None,
