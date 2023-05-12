@@ -55,6 +55,6 @@ tqdm
   pages={18932--18943},
   year={2021}
 }
-GitHub Repo: https://github.com/lucidrains/tab-transformer-pytorch
+GitHub Repo: https://github.com/lucidrains/tab-transformer-pytorch.
 ```
 
